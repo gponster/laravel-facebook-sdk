@@ -26,7 +26,7 @@ return array(
 	|--------------------------------------------------------------------------
 	| Add an app: https://developers.facebook.com/apps
 	*/
-	'app_id' => '782020388508297', 'app_secret' => '3c5f6e081bae5be94af468fbc2aa15ce',
+	'app_id' => '782020xxxxxxxxx', 'app_secret' => '3c5f6e0xxxxxxxxxxxxxxxxxxxxxxxxx',
 
 	'redirect_url' => 'login/facebook',
 

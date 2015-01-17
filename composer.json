@@ -1,0 +1,30 @@
+{
+    "name": "gponster/laravel-facebook-sdk",
+    "type": "library",
+    "description": "Facebook SDK wrapper for Laravel 4",
+    "keywords": ["Facebook", "Laravel", "PHP"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gponster",
+            "email": "anhvudg@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.4.0",
+        "illuminate/support": "4.x",
+        "guzzlehttp/guzzle": "~4.0",
+        "facebook/php-sdk-v4": "4.0.*"
+    },
+    "autoload": {
+	    "classmap": [
+	        "src/controllers",
+	        "src/views",
+	        "src/models"
+	    ],
+        "psr-0": {
+            "Gponster\\Social": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
